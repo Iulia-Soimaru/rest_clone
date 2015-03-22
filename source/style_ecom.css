@@ -1,8 +1,18 @@
 body{
-  background: orange;
+  font-family: 'Ropa Sans', sans-serif;
+  color: #315E85;
+  overflow-x: hidden;
+}
+a{
+  color: #315E85;
+  text-decoration: none;
 }
 section, .left, .right{
   height: 630px;
+}
+h3{
+  color: #83827D;
+  text-decoration: underline;
 }
 .one{
   background: lightblue;
@@ -11,11 +21,11 @@ section, .left, .right{
   background-size: cover;
 }
 .logo{
-  border: 1px solid black;
+  border: 1px solid #315E85;
   padding: 15px;
   width: 70px;
   position: relative;
-  left: 50%;
+  left: 5%;
   top: 5%;
 }
 .welcome{
@@ -38,6 +48,7 @@ section, .left, .right{
     display:block;
     clear: both;
 }
+/*****************************************/
 .two{
   background: url('robot.jpg') no-repeat;
   background-size: cover;
@@ -49,9 +60,13 @@ section, .left, .right{
   left: 10%;
   line-height: 2em;
 }
+/*****************************************/
 .three .right{
   background: url('steps.jpg') no-repeat;
   background-size: cover;
+}
+.three .left{
+  background: #E1E0DB;
 }
 .three h3, .three p{
  width: 70%;
@@ -59,6 +74,7 @@ section, .left, .right{
  top: 20%;
  line-height: 2em;
  margin: auto;
+/*****************************************/
 }
 .four{
   background: white;
@@ -76,10 +92,16 @@ section, .left, .right{
 .circle{
   width: 15px;
   height: 15px;
-  background: blue;
+  background: #E8E8E8;
   border-radius: 50%;
   margin: 5px;
   display: inline-block;
+}
+.first{
+  background: #436996;
+}
+.circle:hover{
+  background: #436996;
 }
 .four .right{
   position: relative;
@@ -87,18 +109,44 @@ section, .left, .right{
   text-align: center;
 }
 .four .right .price{
-  color: blue;
+  color: #436996;
+}
+.four .right h2, .price span{
+  font-size: 55px;
+}
+.price{
+  font-size: 25px;
+}
+.hrblock{
+  padding: 5% 0;
 }
 .four .right .button{
-  background: blue;
+  background: #436996;
   color: white;
-  border: 1px solid blue;
+  border: 1px solid #436996;
   width: 60%;
-  height: 10%;
+  height: 70px;
+}
+.four .right .button:hover{
+   background: #38577A;
+ }
+/*****************************************/
+.five, .text{
+  background: #DEDEDE;
+  line-height: 2em;
+}
+.five .answers{
+  margin: 0;
+  font-size: 25px;
+  position: relative;
+  top: 5%;
+  left: 10%;
+}
+.five .answers, .text p{
+  color: #83827D;
 }
 .text{
   height: 310px;
-  background: red;
 }
 .text h2, .text p, .text a{
   display: block;
@@ -107,8 +155,14 @@ section, .left, .right{
   left: 15%;
   width: 75%;
 }
+/*****************************************/
 footer{
   padding: 4%;
+  background: #737C80;
+  color: white;
+}
+footer a{
+  color: white;
 }
 .copyright{
   float: left;
